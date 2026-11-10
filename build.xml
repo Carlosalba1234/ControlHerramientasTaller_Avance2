@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ControlHerramientasTaller_Avance2" default="run" basedir=".">
+  <property name="src.dir" value="src"/>
+  <property name="build.dir" value="build/classes"/>
+  <target name="clean"><delete dir="build"/></target>
+  <target name="compile"><mkdir dir="${build.dir}"/><javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false" encoding="UTF-8" source="17" target="17"/></target>
+  <target name="run" depends="compile"><java classname="controltaller.InicioSesion" fork="true" failonerror="true"><classpath path="${build.dir}"/></java></target>
+</project>

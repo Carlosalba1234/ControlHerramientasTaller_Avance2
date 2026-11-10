@@ -1,0 +1,17 @@
+AVANCE 2 - CONTROL DE HERRAMIENTAS DEL TALLER
+Proyecto Java Swing. Requiere JDK 17 o superior.
+NetBeans: Archivo > Abrir proyecto > seleccionar esta carpeta.
+Ejecutar InicioSesion.java (Run File) o ejecutar el proyecto.
+Credenciales de demostración: admin / 1234
+
+FUNCIONES: iniciar sesión, registrar/buscar trabajadores, registrar/buscar herramientas,
+consultar disponibles, prestar, devolver y consultar pendientes.
+POO: Persona abstracta; Usuario y Trabajador heredan de Persona y redefinen getDescripcion.
+Colecciones ArrayList, validaciones y excepciones, interfaz Swing.
+
+IMPORTANTE:
+- Los datos se guardan solo en memoria mientras la aplicación está abierta.
+- Este paquete NO incluye historial real de GitHub ni demuestra los pull solicitados.
+- Revisar, probar y adaptar personalmente antes de presentar; el enunciado exige código propio.
+- Es una nueva implementación basada en el diseño del Avance 1, no una modificación
+  de los archivos originales del prototipo.
